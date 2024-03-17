@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background: #FFFBF4;
+  --color-background: #FFFBF4;
+  --color-header: #FFFBF4;
+  --color-text: #42464A;
+  --color-card: #F9F1E5;
+  
+  /* spacing */
+  --layout-padding: 5.5rem;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --background: #42464A;
+    --color-background: #FFFBF4;
+    --color-text: #FFFBF4;
+    --color-card: #F9F1E5;
+  }
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Bold";
+  src: url("../../public/fonts/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("../../public/fonts/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("../../public/fonts/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Regular";
+  src: url("../../public/fonts/IBMPlexSans-Regular.ttf");
+}
+
+body {
+  color: var(--color-text);
+  background: var(--background);
+  font-family: "IBMPlexSans-Medium", sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
