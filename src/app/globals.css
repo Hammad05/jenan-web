@@ -11,6 +11,7 @@
   --color-header: #FFFBF4;
   --color-text: #42464A;
   --color-card: #F9F1E5;
+  --color-icon-background: #ECE1CD;
   
   /* spacing */
   --layout-padding: 5.5rem;
@@ -26,6 +27,7 @@
     --color-background: #FFFBF4;
     --color-text: #FFFBF4;
     --color-card: #F9F1E5;
+    --color-icon-background: #ECE1CD;
   }
 }
 

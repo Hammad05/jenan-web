@@ -21,7 +21,7 @@ export default function Services() {
                     <p>Dubai Tourist Visa</p>
                 </div>
                 <div className="text-2xl font-ibm-plex-sans-600">
-                    <Image className="mb-4" src="/amer.svg" alt="Family, Parents & Newborn Visa" width={400} height={400} />
+                    <Image className="mb-4" src="/Amer.svg" alt="Family, Parents & Newborn Visa" width={400} height={400} />
                     <p>Family, Parents & Newborn Visa</p>
                 </div>
                 <div className="text-2xl font-ibm-plex-sans-600">
@@ -37,7 +37,7 @@ export default function Services() {
                     <p>Legal Translation</p>
                 </div>
                 <div className="text-2xl font-ibm-plex-sans-600">
-                    <Image className="mb-4" src="/ImageMOFA.svg" alt="MOFA Certificate Attestation" width={400} height={400} />
+                    <Image className="mb-4" src="/MOFA.svg" alt="MOFA Certificate Attestation" width={400} height={400} />
                     <p>MOFA Certificate Attestation</p>
                 </div>
             </div>

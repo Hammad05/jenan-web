@@ -19,11 +19,16 @@ const config: Config = {
         background: 'var(--color-background)',
         card: 'var(--color-card)',
         green: '#068b1d',
+        darkGreen: '#68CF16',
         gray: '#D0CCC5',
+        golden: '#E7AF00',
+        iconBg: 'var(--color-icon-background)',
       },
       fontSize: {
         '3xl': ['3.625rem', '1'],
+        '26px': ['1.625rem', '1'],
         '32px': ['2rem', '1'],
+        '58px': ['3.625rem', '1'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
