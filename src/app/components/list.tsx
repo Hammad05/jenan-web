@@ -10,8 +10,14 @@ export const List = ({ items, numColumns }: { items: string[]; numColumns: numbe
         columns[index % numColumns].push(item);
     });
 
+    let classes = `grid grid-cols-1 lg:grid-cols-${numColumns}`;
+
+    if (numColumns > 2) {
+        classes += ' md:grid-cols-2'
+    }
+
     return (
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <ul className={classes}>
             {columns.map((column, colIndex) => (
                 <div key={colIndex}>
                     {column.map((item, index) => (

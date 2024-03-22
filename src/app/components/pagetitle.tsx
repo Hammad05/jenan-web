@@ -3,7 +3,7 @@ import React from "react";
 
 export interface PageTitleProps {
     title: string;
-    image: string;
+    image?: string;
 }
 
 export default function PageTitle(props: PageTitleProps) {
@@ -17,15 +17,18 @@ export default function PageTitle(props: PageTitleProps) {
             </button>
             <p className="text-58px font-ibm-plex-sans-700">{props.title}</p>
         </div>
-        <div className="w-full h-[400px] relative">
+        {
+            props.image && <div className="w-full h-[400px] relative">
             <Image
-                className="rounded-3xl object-right-top"
+                className="rounded-3xl object-cover"
                 src={props.image}
                 alt="Golden Visa"
                 layout="fill"
                 objectFit="cover"
             />
         </div>
+        }
+        
         </React.Fragment>
     )
 }
