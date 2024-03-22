@@ -9,7 +9,7 @@ export interface PageTitleProps {
 export default function PageTitle(props: PageTitleProps) {
     return (
         <React.Fragment>
-        <div className="flex items-center mb-9 gap-6">
+        <div className="flex items-start mb-9 gap-6">
             <button className="bg-iconBg flex p-3 rounded-full">
                 <span className="material-symbols-outlined text-5xl">
                     arrow_back
