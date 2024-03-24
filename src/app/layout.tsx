@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
     <body>
       <Header />
-      <div className="container p-[var(--layout-padding)]">{children}</div>
+      <div className="container p-[var(--layout-padding-md)] md:p-[var(--layout-padding)]">{children}</div>
       <Footer />
     </body>
   </html>

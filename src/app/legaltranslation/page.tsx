@@ -3,7 +3,7 @@ import PageTitle from "../components/pagetitle";
 
 export default function LegalTranslation() {
     return <div className="mx-20">
-        <PageTitle title="Legal Translation" image="/ImageLegal.svg" />
+        <PageTitle title="Legal Translation" image="/legaltranslationdetails.svg" />
         <p className="text-32px font-ibm-plex-sans-400 mt-8 mb-6">Legal Translations</p>
         <List items={["Education Certificates", "Judicial & Court Documents", "Birth & Marriage Certificate", "Mergers & Acquisitions", "Immigration & Visa", "Regulatory & Compliance", "Legal Documents", "Financial Banking", "Personal & Family", "Litigation & Dispute Resolution", "Intelectual Property", "Insolvency & Bankruptcy", "Contract & Agreements", "Employment & Labor", "Real Estate & Property", "Tax & Customs", "Corporate & Commercial"]} numColumns={2} ></List>
         <p className="text-32px font-ibm-plex-sans-400 mt-8 mb-6">Professional translation center in Dubai for all your needs</p>

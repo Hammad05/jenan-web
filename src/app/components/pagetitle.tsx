@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export interface PageTitleProps {
@@ -10,11 +11,11 @@ export default function PageTitle(props: PageTitleProps) {
     return (
         <React.Fragment>
         <div className="flex items-start mb-9 gap-6">
-            <button className="bg-iconBg flex p-3 rounded-full">
+            <Link href={"/services"} className="bg-iconBg flex p-3 rounded-full">
                 <span className="material-symbols-outlined text-5xl">
                     arrow_back
                 </span>
-            </button>
+            </Link>
             <p className="text-58px font-ibm-plex-sans-700">{props.title}</p>
         </div>
         {
