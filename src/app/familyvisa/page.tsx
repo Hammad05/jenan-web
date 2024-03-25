@@ -42,8 +42,8 @@ export default function FamilyVisa() {
         </p>
         <p className="md:text-xl font-ibm-plex-sans-400 mt-8 mb-6">
           To obtain the Residency Visa for New Born Baby in Dubai you must apply
-          within 120 days of the child's birth. If you failed to do it within
-          120 days, then you have to pay a fine of AED 50 per day for
+          within 120 days of the child&apos;s birth. If you failed to do it
+          within 120 days, then you have to pay a fine of AED 50 per day for
           immigration and AED 20 per day for Emirates ID.
         </p>
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">

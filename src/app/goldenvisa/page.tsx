@@ -36,18 +36,19 @@ export default function GoldenVisa() {
           What is UAE Golden Visa
         </p>
         <p className="md:text-xl font-ibm-plex-sans-400">
-          The United Arab Emirates (UAE) has one of the world's fastest-growing
-          economies. It is a popular destination for new opportunities for
-          entrepreneurs, investors, and professionals. The United Arab Emirates
-          provides an appealing business environment, excellent infrastructure,
-          and a high standard of living. The UAE Golden Visa is one of the most
-          recent initiatives launched by the UAE government to attract investors
-          and entrepreneurs. The UAE Golden Visa, introduced in 2019, is a
-          residency visa that allows investors, entrepreneurs, and professionals
-          to live and work in the UAE for a period of 10 years. Once the ten
-          years are up, the visa can be automatically renewed. It grants
-          long-term residency permits in the UAE to investors & entrepreneurs,
-          and eligible categories which can be extended to their family members.
+          The United Arab Emirates (UAE) has one of the world&apos;s
+          fastest-growing economies. It is a popular destination for new
+          opportunities for entrepreneurs, investors, and professionals. The
+          United Arab Emirates provides an appealing business environment,
+          excellent infrastructure, and a high standard of living. The UAE
+          Golden Visa is one of the most recent initiatives launched by the UAE
+          government to attract investors and entrepreneurs. The UAE Golden
+          Visa, introduced in 2019, is a residency visa that allows investors,
+          entrepreneurs, and professionals to live and work in the UAE for a
+          period of 10 years. Once the ten years are up, the visa can be
+          automatically renewed. It grants long-term residency permits in the
+          UAE to investors & entrepreneurs, and eligible categories which can be
+          extended to their family members.
         </p>
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">
           Benefits of UAE Golden Visa

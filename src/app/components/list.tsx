@@ -27,7 +27,7 @@ export const List = ({
       {columns.map((column, colIndex) => (
         <div key={colIndex}>
           {column.map((item, index) => (
-            <li className="flex items-start gap-2 mb-5">
+            <li key={item} className="flex items-start gap-2 mb-5">
               <span className="material-symbols-outlined flex rounded-full mt-1 md:mt-0 text-xlmd:text-32px bg-darkGreen text-black">
                 done
               </span>
