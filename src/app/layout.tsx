@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import "./globalicons.css"
+import "./globalicons.css";
 import Header from "./header";
 import Footer from "./footer";
 
@@ -19,11 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body>
-      <Header />
-      <div className="container p-[var(--layout-padding-md)] md:p-[var(--layout-padding)]">{children}</div>
-      <Footer />
-    </body>
-  </html>
+      <body>
+        <Header />
+        <div className="w-full px-0 py-[var(--layout-padding-md)] md:p-[var(--layout-padding)]">
+          {children}
+        </div>
+        <Footer />
+      </body>
+    </html>
   );
 }
