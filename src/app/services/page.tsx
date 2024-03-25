@@ -31,7 +31,7 @@ export default function Services() {
             <div>UAE Golden Visa</div>
           </Link>
           <Link
-            href={"/"}
+            href={"/newbusiness"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <Image
@@ -64,7 +64,7 @@ export default function Services() {
           >
             <Image
               className="mb-1 md:mb-4"
-              src="/Amer.svg"
+              src="/amer.svg"
               alt="Family, Parents & Newborn Visa"
               width={400}
               height={400}

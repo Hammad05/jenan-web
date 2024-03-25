@@ -4,6 +4,7 @@ import "./globals.css";
 import "./globalicons.css";
 import Header from "./header";
 import Footer from "./footer";
+import ContactInfo from "./components/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,9 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <div className="sticky w-full bottom-0 right-0 left-0 md:hidden">
+          <ContactInfo />
+        </div>
       </body>
     </html>
   );

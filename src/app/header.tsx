@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import ContactInfo from "./components/contact";
 
 export default function Header() {
   const pathName = usePathname();
@@ -40,15 +41,8 @@ export default function Header() {
             </div>
           </nav>
         </div>
-        <div className="h-[64px] flex items-center justify-between hidden md:flex">
-          <button className="bg-green px-4 h-full flex items-center gap-2">
-            <Image src="/whatsapp.svg" alt="Whatsapp" width={36} height={36} />
-            <span className="font-size-16 text-white">Chat on Whatsapp</span>
-          </button>
-          <button className="bg-black px-4 h-full flex items-center gap-2">
-            <Image src="/call.svg" alt="Call" width={36} height={36} />
-            <span className="font-size-16 text-white"> +971 55 796 7733</span>
-          </button>
+        <div className="hidden md:flex">
+          <ContactInfo />
         </div>
       </div>
     </header>
