@@ -1,6 +1,6 @@
 import Image from "next/image";
-import PageTitle from "../components/pagetitle";
-import List from "../components/list";
+import PageTitle from "../../components/pagetitle";
+import List from "../../components/list";
 
 export default function GoldenVisa() {
   return (

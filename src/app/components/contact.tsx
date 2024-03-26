@@ -17,14 +17,19 @@ export default function ContactInfo() {
         className="bg-green flex-1 md:flex-auto px-4 h-full flex items-center gap-2"
       >
         <Image src="/whatsapp.svg" alt="Whatsapp" width={36} height={36} />
-        <span className="font-size-16 text-white">Chat on Whatsapp</span>
+        <span className="text-sm md:text-base text-white">
+          Chat on Whatsapp
+        </span>
       </button>
       <button
         onClick={handleCallClick}
         className="bg-black flex-1 md:flex-auto px-4 h-full flex items-center gap-2"
       >
         <Image src="/call.svg" alt="Call" width={36} height={36} />
-        <span className="font-size-16 text-white"> +971 55 796 7733</span>
+        <span className="text-sm md:text-base text-white">
+          {" "}
+          +971 55 796 7733
+        </span>
       </button>
     </div>
   );

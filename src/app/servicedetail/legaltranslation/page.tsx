@@ -1,5 +1,5 @@
-import List from "../components/list";
-import PageTitle from "../components/pagetitle";
+import List from "../../components/list";
+import PageTitle from "../../components/pagetitle";
 
 export default function LegalTranslation() {
   return (

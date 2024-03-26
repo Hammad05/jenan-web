@@ -1,10 +1,10 @@
 import Image from "next/image";
-import PageTitle from "../components/pagetitle";
-import List from "../components/list";
+import PageTitle from "../../components/pagetitle";
+import List from "../../components/list";
 
 export default function newBusinessSetup() {
   return (
-    <div>
+    <div className="container">
       <PageTitle
         title="UAE New Business Setup"
         image="/newBusinessDetails.svg"
