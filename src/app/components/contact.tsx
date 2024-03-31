@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function ContactInfo() {
   const handleWhatsappClick = () => {
-    window.open(`https://api.whatsapp.com/send?phone=971507967733`, "_blank");
+    window.open(`https://api.whatsapp.com/send?phone=971557967733`, "_blank");
   };
 
   const handleCallClick = () => {
@@ -27,7 +27,6 @@ export default function ContactInfo() {
       >
         <Image src="/call.svg" alt="Call" width={36} height={36} />
         <span className="text-sm md:text-base text-white">
-          {" "}
           +971 55 796 7733
         </span>
       </button>
