@@ -8,14 +8,14 @@ export default function Services() {
     <React.Fragment>
       <div className="px-[var(--layout-padding-md)] md:px-0 ">
         <h1 className="text-xl font-ibm-plex-sans-500 md:text-3xl md:font-ibm-plex-sans-500 mb-1">
-          Welcom to Jenan{" "}
+          Welcom to Jenan
         </h1>
-        <div className="font-ibm-plex-sans-500 text-sm md:text-xl mb-8">
+        <div className="font-ibm-plex-sans-400 text-sm md:text-xl mb-8 w-full md:w-3/5">
           Jenan Documents Clearing Services provides wide range of government
           services. Browse the services below and reach out to us for services
-          given below.{" "}
+          given below.
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-8 gap-y-10 justify-items-stretch">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-4 gap-y-8 justify-items-stretch">
           <Link
             href={"/servicedetail/goldenvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
@@ -24,8 +24,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/goldenVisa.svg"
               alt="Golden Visa"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE Golden Visa</div>
@@ -38,8 +38,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/newBusinessSetup.svg"
               alt="New Business Setup"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE New Business Setup</div>
@@ -52,8 +52,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/touristVisa.svg"
               alt="Dubai Tourist Visa"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Dubai Tourist Visa</div>
@@ -66,8 +66,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/amer.svg"
               alt="Family, Parents & Newborn Visa"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Family, Parents & Newborn Visa</div>
@@ -80,11 +80,11 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/ImageDomesticWork.svg"
               alt="TADBEER Domestic worker visa UAE"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
-            <div>TADBEER Domestic worker visa UAE</div>
+            <div className="w-[400px]">TADBEER Domestic worker visa UAE</div>
           </Link>
           <Link
             href="/servicedetail/tasheel"
@@ -94,8 +94,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/ImageTesheel.svg"
               alt="PRO & TAS-HEEL Services"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>PRO & TAS-HEEL Services</div>
@@ -108,8 +108,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/ImageLegal.svg"
               alt="Legal Translation"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Legal Translation</div>
@@ -122,8 +122,8 @@ export default function Services() {
               className="mb-1 md:mb-4"
               src="/MOFA.svg"
               alt="MOFA Certificate Attestation"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>MOFA Certificate Attestation</div>

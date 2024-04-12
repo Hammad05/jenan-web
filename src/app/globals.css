@@ -12,9 +12,12 @@
   --color-text: #42464A;
   --color-card: #F9F1E5;
   --color-icon-background: #ECE1CD;
+
+  --layout-max-width: 79rem;
+  --layout-max-width-internal: 50rem;
   
   /* spacing */
-  --layout-padding: 5.5rem;
+  --layout-padding: 5rem;
   --layout-padding-md: 1rem
 
 }

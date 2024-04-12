@@ -22,8 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <div className="w-full px-0 py-[var(--layout-padding-md)] md:p-[var(--layout-padding)]">
-          {children}
+        <div className="w-full flex align-center justify-center px-0 py-[var(--layout-padding-md)] md:p-[var(--layout-padding)]">
+          <div className="max-w-[var(--layout-max-width)]">
+            {children}
+          </div>
         </div>
         <Footer />
         <div className="sticky w-full bottom-0 right-0 left-0 md:hidden">

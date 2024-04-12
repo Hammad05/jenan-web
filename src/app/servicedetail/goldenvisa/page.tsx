@@ -4,7 +4,7 @@ import List from "../../components/list";
 
 export default function GoldenVisa() {
   return (
-    <div className="mx-0 md:mx-20">
+    <div className="">
       <PageTitle
         title="UAE Golden Visa"
         image="/goldenVisaDetails.svg"

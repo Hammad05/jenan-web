@@ -15,7 +15,8 @@ export default function Header() {
   const inactiveClasses = "border-transparent";
   return (
     <header className="bg-background h-[64px] border-0 border-b border-gray">
-      <div className="relative flex w-full items-center justify-between md:px-[var(--layout-padding)] p-0 flex items-center justify-between">
+      <div className="w-full md:px-[var(--layout-padding)] p-0 flex items-center justify-center">
+       <div className="relative w-full flex items-center justify-between max-w-[var(--layout-max-width)]"> 
         <div className="flex items-center">
           <div className="flex items-center">
             <img src="/logo.svg" alt="Logo" className="mr-8" />
@@ -43,6 +44,7 @@ export default function Header() {
         </div>
         <div className="hidden md:flex">
           <ContactInfo />
+        </div>
         </div>
       </div>
     </header>
