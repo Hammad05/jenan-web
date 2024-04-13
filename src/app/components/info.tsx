@@ -91,7 +91,7 @@ export default function Info() {
         <div className="text-xl md:text-32px font-ibm-plex-sans-600">
           Jenan Documents Clearing Services
         </div>
-        <div className="font-ibm-plex-sans-600 text-sm md:text-base mt-5">
+        <div className="font-ibm-plex-sans-600 text-sm md:text-base mt-4">
           About JDC
         </div>
         <div className="font-ibm-plex-sans-400 text-sm md:text-base">
@@ -100,7 +100,7 @@ export default function Info() {
           simplify the often complex and time-consuming procedures, allowing you
           to focus on what truly matters – achieving your goals.
         </div>
-        <div className="font-ibm-plex-sans-600 text-sm md:text-base mt-5">
+        <div className="font-ibm-plex-sans-600 text-sm md:text-base mt-4">
           Our Services
         </div>
         <div className="font-ibm-plex-sans-400 text-sm md:text-base">
@@ -110,24 +110,26 @@ export default function Info() {
           organization, our dedicated team is committed to providing efficient,
           reliable, and transparent services.
         </div>
-        <div className="font-ibm-plex-sans-400 text-sm md:text-base mt-5">
-          <li>
-            <span className="font-ibm-plex-sans-600">Expertise</span> Benefit
-            from our team&apos;s in-depth knowledge of both documents clearing
-            and government processes.
-          </li>
-          <li>
-            <span className="font-ibm-plex-sans-600">Efficiency</span> We
-            prioritize efficiency to streamline your experience, saving you time
-            and resources.
-          </li>
-          <li>
-            <span className="font-ibm-plex-sans-600">
-              Comprehensive Solutions
-            </span>{" "}
-            Whether you need assistance with documentation or government
-            compliance, we offer a holistic approach to meet your unique needs.
-          </li>
+        <div className="font-ibm-plex-sans-400 text-sm md:text-base mt-4">
+          <ul className="list-disc px-6">
+            <li>
+              <span className="font-ibm-plex-sans-600">Expertise</span> Benefit
+              from our team&apos;s in-depth knowledge of both documents clearing
+              and government processes.
+            </li>
+            <li>
+              <span className="font-ibm-plex-sans-600">Efficiency</span> We
+              prioritize efficiency to streamline your experience, saving you time
+              and resources.
+            </li>
+            <li>
+              <span className="font-ibm-plex-sans-600">
+                Comprehensive Solutions
+              </span>{" "}
+              Whether you need assistance with documentation or government
+              compliance, we offer a holistic approach to meet your unique needs.
+            </li>
+          </ul>
         </div>
       </div>
     </div>

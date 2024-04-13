@@ -6,6 +6,7 @@ export interface PageTitleProps {
   title: string;
   image?: string;
   imageClasses?: string;
+  containerClasses?: string;
 }
 
 export default function PageTitle(props: PageTitleProps) {
@@ -25,9 +26,9 @@ export default function PageTitle(props: PageTitleProps) {
         </p>
       </div>
       {props.image && (
-        <div className="w-full h-[14.375rem] md:h-[400px] relative">
+        <div className={`w-full h-[14.375rem] md:h-[400px] relative ${props.containerClasses ?? ""}`}>
           <Image
-            className={`md:rounded-3xl object-cover ${props.imageClasses}`}
+            className={`md:rounded-3xl object-cover ${props.imageClasses ?? ""}`}
             src={props.image}
             alt="Golden Visa"
             layout="fill"

@@ -90,6 +90,11 @@ export default function Tasheel() {
           items={[
             "Company Employee List",
             "Expired Labour Card List",
+          ]}
+          numColumns={3}
+        />
+         <List
+          items={[
             "National List",
             "Person Information",
             "Owner Role Information",

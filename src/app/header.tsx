@@ -6,8 +6,24 @@ import ContactInfo from "./components/contact";
 
 export default function Header() {
   const pathName = usePathname();
-  const isActive = (path: string) => {
-    return pathName === path;
+  const isActive = (path: string | string[]) => {
+    const pathName = usePathname(); // Assuming usePathname() provides the current path
+
+    if (Array.isArray(path)) {
+      for (const p of path) {
+        if (p.endsWith("/*")) {
+          const regex = new RegExp(`^${p.slice(0, -2)}`);
+          if (regex.test(pathName)) {
+            return true;
+          }
+        } else if (pathName === p) {
+          return true;
+        }
+      }
+      return false;
+    } else {
+      return pathName === path;
+    }
   };
 
   const activeClasses =
@@ -15,34 +31,38 @@ export default function Header() {
   const inactiveClasses = "border-transparent";
   return (
     <header className="bg-background h-[64px] border-0 border-b border-gray">
-      <div className="relative flex w-full items-center justify-between md:px-[var(--layout-padding)] p-0 flex items-center justify-between">
-        <div className="flex items-center">
+      <div className="w-full md:px-[var(--layout-padding)] p-0 flex items-center justify-center">
+        <div className="relative w-full flex items-center justify-between max-w-[var(--layout-max-width)]">
           <div className="flex items-center">
-            <img src="/logo.svg" alt="Logo" className="mr-8" />
-          </div>
-          <nav>
-            <div className="space-x-4 flex items-center h-[64px]">
-              <Link
-                href="/services"
-                className={`h-full flex items-center justify-center px-3 text-lg ${
-                  isActive("/services") ? activeClasses : inactiveClasses
-                }`}
-              >
-                Services
-              </Link>
-              <Link
-                href="/about"
-                className={`h-full flex items-center justify-center px-3 text-lg ${
-                  isActive("/about") ? activeClasses : inactiveClasses
-                }`}
-              >
-                Contact
-              </Link>
+            <div className="flex items-center">
+              <img src="/logo.svg" alt="Logo" className="mr-8" />
             </div>
-          </nav>
-        </div>
-        <div className="hidden md:flex">
-          <ContactInfo />
+            <nav>
+              <div className="space-x-4 flex items-center h-[64px]">
+                <Link
+                  href="/services"
+                  className={`h-full flex items-center justify-center px-3 text-lg ${
+                    isActive(["/services", "/servicedetail/*"])
+                      ? activeClasses
+                      : inactiveClasses
+                  }`}
+                >
+                  Services
+                </Link>
+                <Link
+                  href="/about"
+                  className={`h-full flex items-center justify-center px-3 text-lg ${
+                    isActive("/about") ? activeClasses : inactiveClasses
+                  }`}
+                >
+                  Contact
+                </Link>
+              </div>
+            </nav>
+          </div>
+          <div className="hidden md:flex">
+            <ContactInfo />
+          </div>
         </div>
       </div>
     </header>
