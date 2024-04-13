@@ -22,11 +22,12 @@ export default function Services() {
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <Image
-              className="mb-1 md:mb-4 object-contain"
-              src="/goldenVisa.jpg"
+              className="mb-1 md:mb-4"
+              src="/goldenVisa.svg"
               alt="Golden Visa"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE Golden Visa</div>
@@ -37,10 +38,11 @@ export default function Services() {
           >
             <Image
               className="mb-1 md:mb-4"
-              src="/newBusinessSetup.jpg"
+              src="/newBusinessSetup.svg"
               alt="New Business Setup"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE New Business Setup</div>
@@ -55,6 +57,7 @@ export default function Services() {
               alt="Dubai Tourist Visa"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Dubai Tourist Visa</div>
@@ -69,6 +72,7 @@ export default function Services() {
               alt="Family, Parents & Newborn Visa"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Family, Parents & Newborn Visa</div>
@@ -84,9 +88,14 @@ export default function Services() {
                 alt="TADBEER Domestic worker visa UAE"
                 width={400}
                 height={400}
+                priority
                 sizes="(max-width: 768px) 156px, 400px"
               />
-              <img src="/tadbeerlogo.svg" alt="Logo" className="absolute bottom-0 right-0 mx-2 md:mx-4 my-2 md:my-4 w-[65px] h-auto md:w-[131px]" />
+              <img
+                src="/tadbeerlogo.svg"
+                alt="Logo"
+                className="absolute bottom-0 right-0 mx-2 md:mx-4 my-2 md:my-4 w-[65px] h-auto md:w-[131px]"
+              />
             </div>
             <div>TADBEER Domestic worker visa UAE</div>
           </Link>
@@ -100,6 +109,7 @@ export default function Services() {
               alt="PRO & TAS-HEEL Services"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>PRO & TAS-HEEL Services</div>
@@ -114,6 +124,7 @@ export default function Services() {
               alt="Legal Translation"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Legal Translation</div>
@@ -128,6 +139,7 @@ export default function Services() {
               alt="MOFA Certificate Attestation"
               width={400}
               height={400}
+              priority
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>MOFA Certificate Attestation</div>
@@ -193,10 +205,23 @@ export default function Services() {
         <div className="font-ibm-plex-sans-500 text-sm md:text-xl mb-8">
           In addition to above service we also provide the below services
         </div>
-        <List items={['Bank Account Assistance', 'UAE Green Visa', 'Company Liquidation',
-          'Auditors Services', 'UAE Employment Visa', 'Dubai Health Authority',
-          'Corporate Tax Registration', 'UAE Freelance Visa', 'Economic Department Services',
-          'Trade License Renewal', 'UAE Retirement Visa', 'Land Department Services']} numColumns={3} />
+        <List
+          items={[
+            "Bank Account Assistance",
+            "UAE Green Visa",
+            "Company Liquidation",
+            "Auditors Services",
+            "UAE Employment Visa",
+            "Dubai Health Authority",
+            "Corporate Tax Registration",
+            "UAE Freelance Visa",
+            "Economic Department Services",
+            "Trade License Renewal",
+            "UAE Retirement Visa",
+            "Land Department Services",
+          ]}
+          numColumns={3}
+        />
 
         <h1 className="text-xl md:text-3xl font-ibm-plex-sans-500 mt-10 md:mt-36 mb-1">
           Get in touch
