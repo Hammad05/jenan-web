@@ -4,7 +4,7 @@ import List from "../../components/list";
 
 export default function GoldenVisa() {
   return (
-    <div className="">
+    <div>
       <PageTitle
         title="UAE Golden Visa"
         image="/goldenVisaDetails.svg"
@@ -27,8 +27,13 @@ export default function GoldenVisa() {
             "Graphic & Web Designers",
             "IT Managers",
             "Singers",
-            "Students",
+          ]}
+          numColumns={3}
+        ></List>
+        <List
+          items={[
             "Artists",
+            "Students",
           ]}
           numColumns={3}
         ></List>

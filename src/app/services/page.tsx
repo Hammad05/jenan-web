@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Info from "../components/info";
 import Link from "next/link";
+import List from "../components/list";
 
 export default function Services() {
   return (
@@ -15,14 +16,14 @@ export default function Services() {
           services. Browse the services below and reach out to us for services
           given below.
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-4 gap-y-8 justify-items-stretch">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-5 gap-y-8 justify-items-stretch">
           <Link
             href={"/servicedetail/goldenvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <Image
-              className="mb-1 md:mb-4"
-              src="/goldenVisa.svg"
+              className="mb-1 md:mb-4 object-contain"
+              src="/goldenVisa.jpg"
               alt="Golden Visa"
               width={400}
               height={400}
@@ -36,7 +37,7 @@ export default function Services() {
           >
             <Image
               className="mb-1 md:mb-4"
-              src="/newBusinessSetup.svg"
+              src="/newBusinessSetup.jpg"
               alt="New Business Setup"
               width={400}
               height={400}
@@ -76,15 +77,18 @@ export default function Services() {
             href="/servicedetail/tadbeer"
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/ImageDomesticWork.svg"
-              alt="TADBEER Domestic worker visa UAE"
-              width={400}
-              height={400}
-              sizes="(max-width: 768px) 156px, 400px"
-            />
-            <div className="w-[400px]">TADBEER Domestic worker visa UAE</div>
+            <div className="relative">
+              <Image
+                className="mb-1 md:mb-4"
+                src="/ImageDomesticWork.svg"
+                alt="TADBEER Domestic worker visa UAE"
+                width={400}
+                height={400}
+                sizes="(max-width: 768px) 156px, 400px"
+              />
+              <img src="/tadbeerlogo.svg" alt="Logo" className="absolute bottom-0 right-0 mx-2 md:mx-4 my-2 md:my-4 w-[65px] h-auto md:w-[131px]" />
+            </div>
+            <div>TADBEER Domestic worker visa UAE</div>
           </Link>
           <Link
             href="/servicedetail/tasheel"
@@ -105,7 +109,7 @@ export default function Services() {
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <Image
-              className="mb-1 md:mb-4"
+              className="mb-1 md:mb-4 rounded-2xl"
               src="/ImageLegal.svg"
               alt="Legal Translation"
               width={400}
@@ -136,52 +140,63 @@ export default function Services() {
           We provide visa services and guidance for many countries, reach us for
           foreign visa services.
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-y-8 gap-x-5">
           <div className="text-sm md:text-2xl font-ibm-plex-sans-600">
             <Image
-              className="mb-4"
+              className="mb-1.5"
               src="/KSA.svg"
               alt="foreignVisa"
               width={298}
               height={236}
               sizes="(max-width: 768px) 236px, 298px"
             />
-            <div>Saudi Arabia Visa</div>
+            <div className="mx-0.5">Saudi Arabia Visa</div>
           </div>
           <div className="text-sm md:text-2xl font-ibm-plex-sans-600">
             <Image
-              className="mb-4"
+              className="mb-1.5"
               src="/UK.svg"
               alt="foreignVisa"
               width={298}
               height={236}
               sizes="(max-width: 768px) 236px, 298px"
             />
-            <div>United Kingdom Visa</div>
+            <div className="mx-0.5">United Kingdom Visa</div>
           </div>
           <div className="text-sm md:text-2xl font-ibm-plex-sans-600">
             <Image
-              className="mb-4"
+              className="mb-1"
               src="/EU.svg"
               alt="foreignVisa"
               width={298}
               height={236}
               sizes="(max-width: 768px) 236px, 298px"
             />
-            <div>Schengen Visa</div>
+            <div className="mx-0.5">Schengen Visa</div>
           </div>
           <div className="text-sm md:text-2xl font-ibm-plex-sans-600">
             <Image
-              className="mb-4"
+              className="mb-1.5"
               src="/Turkey.svg"
               alt="foreignVisa"
               width={298}
               height={236}
               sizes="(max-width: 768px) 236px, 298px"
             />
-            <div>Turkey Visa</div>
+            <div className="mx-0.5">Turkey Visa</div>
           </div>
         </div>
+
+        <h1 className="text-xl md:text-3xl font-ibm-plex-sans-500 mt-10 md:mt-36 mb-1">
+          Other Services
+        </h1>
+        <div className="font-ibm-plex-sans-500 text-sm md:text-xl mb-8">
+          In addition to above service we also provide the below services
+        </div>
+        <List items={['Bank Account Assistance', 'UAE Green Visa', 'Company Liquidation',
+          'Auditors Services', 'UAE Employment Visa', 'Dubai Health Authority',
+          'Corporate Tax Registration', 'UAE Freelance Visa', 'Economic Department Services',
+          'Trade License Renewal', 'UAE Retirement Visa', 'Land Department Services']} numColumns={3} />
 
         <h1 className="text-xl md:text-3xl font-ibm-plex-sans-500 mt-10 md:mt-36 mb-1">
           Get in touch

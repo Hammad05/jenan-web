@@ -4,7 +4,7 @@ import List from "../../components/list";
 
 export default function newBusinessSetup() {
   return (
-    <div className="container">
+    <div>
       <PageTitle
         title="UAE New Business Setup"
         image="/newBusinessDetails.svg"
@@ -33,7 +33,7 @@ export default function newBusinessSetup() {
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 mt-5 divide-y divide-x divide-gray border-b border-r border-gray">
           <div className="flex items-center border-l border-t border-gray px-6">
             <Image
-              src="/Logo12dubaiEconomy.svg"
+              src="/Logo12dubaiEconomy.png"
               alt="Logo"
               width={200}
               height={154}
@@ -41,32 +41,32 @@ export default function newBusinessSetup() {
           </div>
           <div className="flex items-center px-10 py-8">
             <Image
-              src="/Logo04dbxeconomyandtourism.svg"
+              src="/Logo04dbxeconomyandtourism.png"
               alt="Logo"
               width={200}
               height={154}
             />
           </div>
           <div className="flex items-center px-6 py-8">
-            <Image src="/Logo06dmcc.svg" alt="Logo" width={200} height={154} />
+            <Image src="/Logo06dmcc.png" alt="Logo" width={200} height={154} />
           </div>
           <div className="flex items-center px-6">
             <Image
-              src="/Logo11dbxintfincenter.svg"
+              src="/Logo11dbxintfincenter.png"
               alt="Logo"
               width={200}
               height={154}
             />
           </div>
-          <div className="flex items-center justify-center py-8 px-10">
-            <Image src="/Logo05shams.svg" alt="Logo" width={64} height={90} />
+          <div className="flex items-center justify-center">
+            <Image src="/Logo05shams.png" alt="Logo" width={200} height={200} />
           </div>
           <div className="flex items-center px-12 py-6">
-            <Image src="/Logo09jazfa.svg" alt="Logo" width={200} height={154} />
+            <Image src="/Logo09jazfa.png" alt="Logo" width={200} height={154} />
           </div>
-          <div className="flex items-center px-4">
+          <div className="flex items-center justify-center">
             <Image
-              src="/Logo07ajmanfreezone.svg"
+              src="/Logo07ajmanfreezone.png"
               alt="Logo"
               width={200}
               height={154}
@@ -74,18 +74,18 @@ export default function newBusinessSetup() {
           </div>
           <div className="flex items-center px-12 py-8">
             <Image
-              src="/Logo10dbxairportfreezone.svg"
+              src="/Logo10dbxairportfreezone.png"
               alt="Logo"
               width={200}
               height={154}
             />
           </div>
           <div className="flex items-center px-16 py-8">
-            <Image src="/Logo08rakez.svg" alt="Logo" width={200} height={154} />
+            <Image src="/Logo08rakez.png" alt="Logo" width={200} height={154} />
           </div>
           <div className="flex items-center p-8">
             <Image
-              src="/Logo03creativecity.svg"
+              src="/Logo03creativecity.png"
               alt="Logo"
               width={200}
               height={154}
@@ -93,7 +93,7 @@ export default function newBusinessSetup() {
           </div>
           <div className="flex items-center px-12 py-4">
             <Image
-              src="/Logo02shjEcoDept.svg"
+              src="/Logo02shjEcoDept.png"
               alt="Logo"
               width={200}
               height={154}
@@ -101,7 +101,7 @@ export default function newBusinessSetup() {
           </div>
           <div className="flex items-center px-8 py-4">
             <Image
-              src="/Logo01ajmandeptofeconomics.svg"
+              src="/Logo01ajmandeptofeconomics.png"
               alt="Logo"
               width={200}
               height={154}

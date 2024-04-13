@@ -5,6 +5,7 @@ import "./globalicons.css";
 import Header from "./header";
 import Footer from "./footer";
 import ContactInfo from "./components/contact";
+import CustomSuspense from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 

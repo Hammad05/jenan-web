@@ -3,5 +3,5 @@ export default function ServiceDetailLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="md:mx-auto md:w-[var(--layout-max-width-internal)]">{children}</div>;
+  return <div className="md:mx-auto w-full md:max-w-[var(--layout-max-width-internal)]">{children}</div>;
 }

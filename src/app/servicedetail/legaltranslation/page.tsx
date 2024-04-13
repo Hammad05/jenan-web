@@ -6,7 +6,9 @@ export default function LegalTranslation() {
     <div>
       <PageTitle
         title="Legal Translation"
-        image="/legaltranslationdetails.svg"
+        image="/ImageLegal.svg"
+        imageClasses="w-full h-[14.375rem] md:h-[400px] !object-contain md:object-cover"
+        containerClasses="bg-[#ECE1CD]"
       />
       <div className="px-[var(--layout-padding-md)] md:px-0">
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">

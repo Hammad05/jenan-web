@@ -14,18 +14,18 @@ export default function ContactInfo() {
     <div className="h-[64px] flex items-center">
       <button
         onClick={handleWhatsappClick}
-        className="bg-green flex-1 md:flex-auto px-4 h-full flex items-center gap-2"
+        className="bg-green flex-1 md:flex-auto px-4 h-full flex items-center justify-center gap-3 md:gap-2"
       >
-        <Image src="/whatsapp.svg" alt="Whatsapp" width={36} height={36} />
+        <img src="/whatsapp.svg" alt="Whatsapp" className="object-contain w-6 h-6 md:w-auto md:h-auto" />
         <span className="text-sm md:text-base text-white">
           Chat on Whatsapp
         </span>
       </button>
       <button
         onClick={handleCallClick}
-        className="bg-black flex-1 md:flex-auto px-4 h-full flex items-center gap-2"
+        className="bg-black flex-1 md:flex-auto px-4 h-full flex items-center justify-center gap-3 md:gap-2"
       >
-        <Image src="/call.svg" alt="Call" width={36} height={36} />
+        <img src="/call.svg" alt="Call" className="object-contain w-6 h-6 md:w-auto md:h-auto" />
         <span className="text-sm md:text-base text-white">
           +971 55 796 7733
         </span>
