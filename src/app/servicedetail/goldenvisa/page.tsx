@@ -4,11 +4,11 @@ import List from "../../components/list";
 
 export default function GoldenVisa() {
   return (
-    <div className="">
+    <div>
       <PageTitle
         title="UAE Golden Visa"
         image="/goldenVisaDetails.svg"
-        imageClasses="object-top-right"
+        imageClasses="object-right"
       />
       <div className="px-[var(--layout-padding-md)] md:px-0">
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">
@@ -27,11 +27,10 @@ export default function GoldenVisa() {
             "Graphic & Web Designers",
             "IT Managers",
             "Singers",
-            "Students",
-            "Artists",
           ]}
           numColumns={3}
         ></List>
+        <List items={["Artists", "Students"]} numColumns={3}></List>
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">
           What is UAE Golden Visa
         </p>

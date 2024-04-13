@@ -15,7 +15,7 @@ export default function TouristVisa() {
         </p>
         <List
           items={["Passport copy", "Passport size photograph"]}
-          numColumns={2}
+          numColumns={1}
         />
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">
           Dubai tourist visa services
