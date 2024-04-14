@@ -103,35 +103,6 @@ export default function FamilyVisa() {
               residents. The visa is granted on a yearly basis regardless of the
               sponsor&apos;s visa duration.
             </p>
-            <ul className="list-disc px-8 mt-4 font-ibm-plex-sans-700">
-              <li>
-                Opening a bank account: With a residence visa, your parents can
-                open and operate their own bank accounts in the UAE.
-              </li>
-              <li>
-                They can access various financial services, such as loans and
-                credit facilities.
-              </li>
-              <li>They are eligible to apply for a UAE driving licence.</li>
-              <li>
-                They can avail of government health services and apply for
-                health insurance.
-              </li>
-              <li>
-                Work and investment: If they wish, they can seek employment or
-                invest in businesses in the UAE.
-              </li>
-              <li>
-                Travel convenience: A UAE residence visa may allow for visa-free
-                travel to certain destinations, depending on the passport they
-                hold.
-              </li>
-            </ul>
-            <p className="mt-4">
-              All expatriates must get birth certificates attested by the
-              Ministry of Health and Prevention and the Ministry of Foreign
-              Affairs and International Cooperation (MOFA)
-            </p>
             <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
               Benefits
             </p>

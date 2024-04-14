@@ -119,7 +119,7 @@ export default function Services() {
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <Image
-              className="mb-1 md:mb-4 rounded-2xl"
+              className="mb-1 md:mb-4"
               src="/ImageLegal.svg"
               alt="Legal Translation"
               width={400}

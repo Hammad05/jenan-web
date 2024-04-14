@@ -17,7 +17,7 @@ export default function ContactInfo() {
     <div className={`h-[64px] flex items-center ${isViwed ? "" : "hidden"}`}>
       <button
         onClick={handleWhatsappClick}
-        className="bg-green flex-1 flex-auto h-full flex items-center justify-around gap-3 lg:px-6 md:px-3"
+        className="bg-green flex-1 flex-auto h-full flex items-center justify-center gap-3 lg:px-6 px-3"
       >
         <img
           src="/whatsapp.svg"
@@ -30,7 +30,7 @@ export default function ContactInfo() {
       </button>
       <button
         onClick={handleCallClick}
-        className="bg-black flex-1 flex-auto h-full flex items-center justify-around gap-3 lg:px-6 md:px-3"
+        className="bg-black flex-1 flex-auto h-full flex items-center justify-center gap-3 lg:px-6 px-3"
       >
         <img
           src="/call.svg"
