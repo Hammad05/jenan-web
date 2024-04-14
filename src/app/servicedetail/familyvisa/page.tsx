@@ -26,25 +26,25 @@ export default function FamilyVisa() {
             numColumns={2}
           ></List>
         </div>
-        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-14 mb-6">
+        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
           Family Visa in Dubai
         </p>
-        <p className="md:text-xl font-ibm-plex-sans-400 mt-8 mb-6">
+        <p className="md:text-xl font-ibm-plex-sans-400 mt-4">
           Do you want to sponsor your family to live with you in UAE? You can do
           so by applying for a Dubai family visa. This visa is different from a
           tourist or work visa, allowing you to stay in Dubai with your family
           called 2 years residence visa.
         </p>
-        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-14 mb-6">
+        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
           Spouse Visa
         </p>
-        <div className="md:text-xl font-ibm-plex-sans-400 mt-8 mb-6">
+        <div className="md:text-xl font-ibm-plex-sans-400 mt-4">
           <p>
             To obtain a spouse visa in the UAE, you need to meet certain
             requirements. Here&apos;s a summary of the key points:
           </p>
           <p className="mt-4">
-            <span className="font-ibm-plex-sans-700">Eligibility:</span>{" "}
+            <span className="font-ibm-plex-sans-700">Eligibility:</span>
             Expatriate residents can sponsor their spouses if they have a valid
             UAE residence permit and meet the minimum salary requirement of AED
             4,000 or AED 3,000 plus accommodation.
@@ -55,10 +55,10 @@ export default function FamilyVisa() {
             conditions are similar to those for a new residence visa.
           </p>
         </div>
-        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-14 mb-6">
+        <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
           Newborn Visa
         </p>
-        <div className="md:text-xl font-ibm-plex-sans-400 mt-8 mb-6">
+        <div className="md:text-xl font-ibm-plex-sans-400 mt-4">
           <p>
             For a newborn visa in Dubai, residents have up to 120 days from the
             birth of their child to arrange the necessary documents, which
@@ -93,10 +93,10 @@ export default function FamilyVisa() {
             of Health and Prevention and the Ministry of Foreign Affairs and
             International Cooperation (MOFA)
           </p>
-          <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-14 mb-6">
+          <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
             Parents Visa
           </p>
-          <div className="md:text-xl font-ibm-plex-sans-400 mt-8 mb-6">
+          <div className="md:text-xl font-ibm-plex-sans-400 mt-4">
             <p>
               In the UAE, a residence visa for parents allows them to live in
               the country, typically sponsored by their children who are UAE
@@ -132,10 +132,10 @@ export default function FamilyVisa() {
               Ministry of Health and Prevention and the Ministry of Foreign
               Affairs and International Cooperation (MOFA)
             </p>
-            <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-14 mb-6">
+            <p className="text-2xl md:text-32px font-ibm-plex-sans-600 mt-16">
               Benefits
             </p>
-            <p>
+            <p className="mt-4">
               The benefits of a residence visa in the UAE for parents include:
             </p>
             <ul className="list-disc px-8 mt-4 font-ibm-plex-sans-700">
@@ -167,7 +167,7 @@ export default function FamilyVisa() {
               provide them with greater financial and social independence during
               their stay in the UAE.
             </p>
-            <p className="mt-4">
+            <p className="mt-4 mb-4">
               Let us help you make the process stress-free and efficient,
               allowing you to reunite with your loved ones
             </p>
