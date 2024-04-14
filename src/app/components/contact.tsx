@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
+import { useContext } from "react";
+import { SplashScreenContext } from "../splash";
 
 export default function ContactInfo() {
+  const { isViwed } = useContext(SplashScreenContext);
   const handleWhatsappClick = () => {
     window.open(`https://api.whatsapp.com/send?phone=971557967733`, "_blank");
   };
@@ -11,7 +14,7 @@ export default function ContactInfo() {
   };
 
   return (
-    <div className="h-[64px] flex items-center">
+    <div className={`h-[64px] flex items-center ${isViwed ? "" : "hidden"}`}>
       <button
         onClick={handleWhatsappClick}
         className="bg-green flex-1 flex-auto h-full flex items-center justify-around gap-3 lg:px-6 md:px-3"
