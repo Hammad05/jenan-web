@@ -7,8 +7,6 @@ import ContactInfo from "./components/contact";
 export default function Header() {
   const pathName = usePathname();
   const isActive = (path: string | string[]) => {
-    const pathName = usePathname(); // Assuming usePathname() provides the current path
-
     if (Array.isArray(path)) {
       for (const p of path) {
         if (p.endsWith("/*")) {
