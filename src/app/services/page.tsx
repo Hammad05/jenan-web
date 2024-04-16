@@ -27,7 +27,7 @@ export default function Services() {
               alt="Golden Visa"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE Golden Visa</div>
@@ -42,7 +42,7 @@ export default function Services() {
               alt="New Business Setup"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>UAE New Business Setup</div>
@@ -57,7 +57,7 @@ export default function Services() {
               alt="Dubai Tourist Visa"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Dubai Tourist Visa</div>
@@ -72,7 +72,7 @@ export default function Services() {
               alt="Family, Parents & Newborn Visa"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Family, Parents & Newborn Visa</div>
@@ -88,7 +88,7 @@ export default function Services() {
                 alt="TADBEER Domestic worker visa UAE"
                 width={400}
                 height={400}
-                priority
+                loading="lazy"
                 sizes="(max-width: 768px) 156px, 400px"
               />
               <img
@@ -109,7 +109,7 @@ export default function Services() {
               alt="PRO & TAS-HEEL Services"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>PRO & TAS-HEEL Services</div>
@@ -124,7 +124,7 @@ export default function Services() {
               alt="Legal Translation"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>Legal Translation</div>
@@ -139,7 +139,7 @@ export default function Services() {
               alt="MOFA Certificate Attestation"
               width={400}
               height={400}
-              priority
+              loading="lazy"
               sizes="(max-width: 768px) 156px, 400px"
             />
             <div>MOFA Certificate Attestation</div>
@@ -160,6 +160,7 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
+              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Saudi Arabia Visa</div>
@@ -171,6 +172,7 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
+              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">United Kingdom Visa</div>
@@ -182,6 +184,7 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
+              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Schengen Visa</div>
@@ -193,6 +196,7 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
+              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Turkey Visa</div>
