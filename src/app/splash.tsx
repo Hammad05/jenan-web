@@ -6,10 +6,10 @@ interface SplashScreenProps {
 }
 
 export const SplashScreenContext = createContext<SplashScreenProps>({
-  isViwed: false,
+  isViwed: true,
 });
 const SplashScreen: React.FC<PropsWithChildren> = ({ children }) => {
-  const [isViwed, setIsViwed] = useState(false);
+  const [isViwed, setIsViwed] = useState(true);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
