@@ -28,7 +28,6 @@ export default function Services() {
                   src="/goldenVisa.svg"
                   alt="Golden Visa"
                   layout="fill"
-                  loading="lazy"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -46,7 +45,6 @@ export default function Services() {
                   alt="UAE New Business Setup"
                   layout="fill"
                   objectFit="cover"
-                  loading="lazy"
                   className="mb-1 md:mb-4 rounded-xl"
                 />
               </div>
@@ -64,7 +62,6 @@ export default function Services() {
                   src="/touristVisa.svg"
                   alt="Dubai Tourist Visa"
                   layout="fill"
-                  loading="lazy"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -81,9 +78,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/amer.svg"
                   alt="Family, Parents & Newborn Visa"
-                  width={400}
-                  height={400}
-                  loading="lazy"
+                  layout="fill"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -100,9 +95,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/ImageDomesticWork.svg"
                   alt="TADBEER Domestic worker visa UAE"
-                  width={400}
-                  height={400}
-                  loading="lazy"
+                  layout="fill"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
                 <img
@@ -124,9 +117,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/ImageTesheel.svg"
                   alt="PRO & TAS-HEEL Services"
-                  width={400}
-                  height={400}
-                  loading="lazy"
+                  layout="fill"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -143,9 +134,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/ImageLegal.svg"
                   alt="Legal Translation"
-                  width={400}
-                  height={400}
-                  loading="lazy"
+                  layout="fill"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -162,9 +151,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/MOFA.svg"
                   alt="MOFA Certificate Attestation"
-                  width={400}
-                  height={400}
-                  loading="lazy"
+                  layout="fill"
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -187,7 +174,6 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
-              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Saudi Arabia Visa</div>
@@ -199,7 +185,6 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
-              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">United Kingdom Visa</div>
@@ -211,7 +196,6 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
-              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Schengen Visa</div>
@@ -223,7 +207,6 @@ export default function Services() {
               alt="foreignVisa"
               width={298}
               height={236}
-              loading="lazy"
               sizes="(max-width: 768px) 236px, 298px"
             />
             <div className="mx-0.5">Turkey Visa</div>
