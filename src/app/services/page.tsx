@@ -21,30 +21,34 @@ export default function Services() {
             href={"/servicedetail/goldenvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/goldenVisa.svg"
-              alt="Golden Visa"
-              width={400}
-              height={400}
-              loading="lazy"
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  src="/goldenVisa.jpg"
+                  alt="Golden Visa"
+                  layout="fill"
+                  objectFit="cover"
+                  className="mb-1 md:mb-4 rounded-xl"
+                />
+              </div>
+            </div>
             <div>UAE Golden Visa</div>
           </Link>
           <Link
             href={"/servicedetail/newbusiness"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/newBusinessSetup.svg"
-              alt="New Business Setup"
-              width={400}
-              height={400}
-              loading="lazy"
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  src="/newBusinessSetup.jpg"
+                  alt="UAE New Business Setup"
+                  layout="fill"
+                  objectFit="cover"
+                  className="mb-1 md:mb-4 rounded-xl"
+                />
+              </div>
+            </div>
             <div>UAE New Business Setup</div>
           </Link>
           <Link
