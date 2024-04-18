@@ -9,7 +9,7 @@ export const SplashScreenContext = createContext<SplashScreenProps>({
   isViwed: true,
 });
 const SplashScreen: React.FC<PropsWithChildren> = ({ children }) => {
-  const [isViwed, setIsViwed] = useState(true);
+  const [isViwed, setIsViwed] = useState(false);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
