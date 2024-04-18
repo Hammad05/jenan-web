@@ -16,7 +16,7 @@ export default function Services() {
           services. Browse the services below and reach out to us for services
           given below.
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-5 gap-y-8 justify-items-stretch">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-x-6 gap-y-8 justify-items-stretch">
           <Link
             href={"/servicedetail/goldenvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
@@ -24,11 +24,12 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  src="/goldenVisa.jpg"
+                  className="mb-1 md:mb-4"
+                  src="/goldenVisa.svg"
                   alt="Golden Visa"
                   layout="fill"
-                  objectFit="cover"
-                  className="mb-1 md:mb-4 rounded-xl"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
             </div>
