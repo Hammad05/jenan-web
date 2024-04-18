@@ -82,7 +82,7 @@ export default function Info() {
       </div>
       <div className="bg-card rounded-3xl h-[360px] md:h-[574px]">
         <img
-          src="/ImagejdcFooter.svg"
+          src="/ImagejdcFooter.png"
           alt="Jenan Documents Clearing Services"
           className="w-full h-full object-cover rounded-3xl object-right-top"
         />
@@ -119,15 +119,16 @@ export default function Info() {
             </li>
             <li>
               <span className="font-ibm-plex-sans-600">Efficiency</span> We
-              prioritize efficiency to streamline your experience, saving you time
-              and resources.
+              prioritize efficiency to streamline your experience, saving you
+              time and resources.
             </li>
             <li>
               <span className="font-ibm-plex-sans-600">
                 Comprehensive Solutions
               </span>{" "}
               Whether you need assistance with documentation or government
-              compliance, we offer a holistic approach to meet your unique needs.
+              compliance, we offer a holistic approach to meet your unique
+              needs.
             </li>
           </ul>
         </div>
