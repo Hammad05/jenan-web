@@ -25,9 +25,10 @@ export default function Services() {
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
                   className="mb-1 md:mb-4"
-                  src="/goldenVisa.svg"
+                  src="/goldenVisa.jpg"
                   alt="Golden Visa"
-                  layout="fill"
+                  priority
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -41,11 +42,11 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  src="/newBusinessSetup.jpg"
+                  src="/newbiztn.jpg"
                   alt="UAE New Business Setup"
-                  layout="fill"
-                  objectFit="cover"
+                  fill
                   className="mb-1 md:mb-4 rounded-xl"
+                  sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
             </div>
@@ -59,9 +60,9 @@ export default function Services() {
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
                   className="mb-1 md:mb-4"
-                  src="/touristVisa.svg"
+                  src="/touristVisa.jpg"
                   alt="Dubai Tourist Visa"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -78,7 +79,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/amer.svg"
                   alt="Family, Parents & Newborn Visa"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -93,9 +94,9 @@ export default function Services() {
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
                   className="mb-1 md:mb-4"
-                  src="/ImageDomesticWork.svg"
+                  src="/ImageDomesticWork.jpg"
                   alt="TADBEER Domestic worker visa UAE"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
                 <img
@@ -115,9 +116,9 @@ export default function Services() {
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
                   className="mb-1 md:mb-4"
-                  src="/ImageTesheel.svg"
+                  src="/ImageTesheel.jpg"
                   alt="PRO & TAS-HEEL Services"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -132,9 +133,9 @@ export default function Services() {
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
                   className="mb-1 md:mb-4"
-                  src="/ImageLegal.svg"
+                  src="/ImageLegal.jpg"
                   alt="Legal Translation"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
@@ -151,7 +152,7 @@ export default function Services() {
                   className="mb-1 md:mb-4"
                   src="/MOFA.svg"
                   alt="MOFA Certificate Attestation"
-                  layout="fill"
+                  fill
                   sizes="(max-width: 768px) 156px, 400px"
                 />
               </div>
