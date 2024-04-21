@@ -24,7 +24,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/goldenVisa.jpg"
                   alt="Golden Visa"
                   priority
@@ -59,7 +59,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/touristVisa.jpg"
                   alt="Dubai Tourist Visa"
                   fill
@@ -76,7 +76,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/amer.svg"
                   alt="Family, Parents & Newborn Visa"
                   fill
@@ -93,7 +93,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/ImageDomesticWork.jpg"
                   alt="TADBEER Domestic worker visa UAE"
                   fill
@@ -115,7 +115,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/ImageTesheel.jpg"
                   alt="PRO & TAS-HEEL Services"
                   fill
@@ -132,7 +132,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/ImageLegal.jpg"
                   alt="Legal Translation"
                   fill
@@ -149,7 +149,7 @@ export default function Services() {
             <div className="relative">
               <div className="aspect-square mb-1 md:mb-4">
                 <Image
-                  className="mb-1 md:mb-4"
+                  className="mb-1 md:mb-4 rounded-xl"
                   src="/MOFA.svg"
                   alt="MOFA Certificate Attestation"
                   fill
