@@ -38,7 +38,7 @@ export default function Header() {
             <nav>
               <div className="space-x-4 flex items-center h-[64px]">
                 <Link
-                  href="/services"
+                  href="/"
                   className={`h-full flex items-center justify-center px-3 text-lg ${
                     isActive(["/services", "/servicedetail/*"])
                       ? activeClasses
