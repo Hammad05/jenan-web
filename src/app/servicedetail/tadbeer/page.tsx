@@ -1,4 +1,3 @@
-import Image from "next/image";
 import List from "../../components/list";
 import PageTitle from "../../components/pagetitle";
 

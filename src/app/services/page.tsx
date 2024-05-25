@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "../components/Image";
 import Info from "../components/info";
 import Link from "next/link";
 import List from "../components/list";

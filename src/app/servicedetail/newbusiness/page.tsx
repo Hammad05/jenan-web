@@ -1,6 +1,7 @@
-import Image from "next/image";
+
 import PageTitle from "../../components/pagetitle";
 import List from "../../components/list";
+import Image from "../../components/Image";
 
 export default function newBusinessSetup() {
   return (
