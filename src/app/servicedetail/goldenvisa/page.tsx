@@ -7,7 +7,7 @@ export default function GoldenVisa() {
     <div>
       <PageTitle
         title="UAE Golden Visa"
-        image="/goldenVisaDetails.svg"
+        image="/goldenVisa.jpg"
         imageClasses="object-right"
       />
       <div className="px-[var(--layout-padding-md)] md:px-0">

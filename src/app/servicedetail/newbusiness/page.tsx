@@ -5,10 +5,7 @@ import List from "../../components/list";
 export default function newBusinessSetup() {
   return (
     <div>
-      <PageTitle
-        title="UAE New Business Setup"
-        image="/newBusinessDetails.svg"
-      />
+      <PageTitle title="UAE New Business Setup" image="/newBusinessSetup.jpg" />
       <div className="px-[var(--layout-padding-md)] md:px-0">
         <p className="text-2xl md:text-32px font-ibm-plex-sans-400 mt-8 mb-6">
           Business Setup Solutions

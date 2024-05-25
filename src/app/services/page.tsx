@@ -21,60 +21,69 @@ export default function Services() {
             href={"/servicedetail/goldenvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/goldenVisa.svg"
-              alt="Golden Visa"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/goldenVisa.jpg"
+                  alt="Golden Visa"
+                  priority
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>UAE Golden Visa</div>
           </Link>
           <Link
             href={"/servicedetail/newbusiness"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/newBusinessSetup.svg"
-              alt="New Business Setup"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  src="/newbiztn.jpg"
+                  alt="UAE New Business Setup"
+                  fill
+                  className="mb-1 md:mb-4 rounded-xl"
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>UAE New Business Setup</div>
           </Link>
           <Link
             href={"/servicedetail/touristvisa"}
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/touristVisa.svg"
-              alt="Dubai Tourist Visa"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/touristVisa.jpg"
+                  alt="Dubai Tourist Visa"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>Dubai Tourist Visa</div>
           </Link>
           <Link
             href="/servicedetail/familyvisa"
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/amer.svg"
-              alt="Family, Parents & Newborn Visa"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/amer.svg"
+                  alt="Family, Parents & Newborn Visa"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>Family, Parents & Newborn Visa</div>
           </Link>
           <Link
@@ -82,20 +91,20 @@ export default function Services() {
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
             <div className="relative">
-              <Image
-                className="mb-1 md:mb-4"
-                src="/ImageDomesticWork.svg"
-                alt="TADBEER Domestic worker visa UAE"
-                width={400}
-                height={400}
-                priority
-                sizes="(max-width: 768px) 156px, 400px"
-              />
-              <img
-                src="/tadbeerlogo.svg"
-                alt="Logo"
-                className="absolute bottom-0 right-0 mx-2 md:mx-4 my-2 md:my-4 w-[65px] h-auto md:w-[131px]"
-              />
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/ImageDomesticWork.jpg"
+                  alt="TADBEER Domestic worker visa UAE"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+                <img
+                  src="/tadbeerlogo.svg"
+                  alt="Logo"
+                  className="absolute bottom-0 right-0 mx-2 md:mx-4 my-2 md:my-4 w-[65px] h-auto md:w-[131px]"
+                />
+              </div>
             </div>
             <div>TADBEER Domestic worker visa UAE</div>
           </Link>
@@ -103,45 +112,51 @@ export default function Services() {
             href="/servicedetail/tasheel"
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/ImageTesheel.svg"
-              alt="PRO & TAS-HEEL Services"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/ImageTesheel.jpg"
+                  alt="PRO & TAS-HEEL Services"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>PRO & TAS-HEEL Services</div>
           </Link>
           <Link
             href="/servicedetail/legaltranslation"
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4 rounded-2xl"
-              src="/ImageLegal.svg"
-              alt="Legal Translation"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/ImageLegal.jpg"
+                  alt="Legal Translation"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>Legal Translation</div>
           </Link>
           <Link
             href="/servicedetail/mofacertificateattestation"
             className="text-sm md:text-2xl font-ibm-plex-sans-600"
           >
-            <Image
-              className="mb-1 md:mb-4"
-              src="/MOFA.svg"
-              alt="MOFA Certificate Attestation"
-              width={400}
-              height={400}
-              priority
-              sizes="(max-width: 768px) 156px, 400px"
-            />
+            <div className="relative">
+              <div className="aspect-square mb-1 md:mb-4">
+                <Image
+                  className="mb-1 md:mb-4 rounded-xl"
+                  src="/MOFA.svg"
+                  alt="MOFA Certificate Attestation"
+                  fill
+                  sizes="(max-width: 768px) 156px, 400px"
+                />
+              </div>
+            </div>
             <div>MOFA Certificate Attestation</div>
           </Link>
         </div>
