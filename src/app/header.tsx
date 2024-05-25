@@ -33,14 +33,14 @@ export default function Header() {
         <div className="relative w-full flex items-center justify-between max-w-[var(--layout-max-width)]">
           <div className="flex items-center">
             <div className="flex items-center">
-              <img src="/logo.png" alt="Logo" className="mr-8" />
+              <img src="/logo.svg" alt="Logo" className="mr-8" />
             </div>
             <nav>
               <div className="space-x-4 flex items-center h-[64px]">
                 <Link
                   href="/"
                   className={`h-full flex items-center justify-center px-3 text-lg ${
-                    isActive(["/services", "/servicedetail/*"])
+                    isActive(["/", "/servicedetail/*"])
                       ? activeClasses
                       : inactiveClasses
                   }`}
@@ -50,7 +50,7 @@ export default function Header() {
                 <Link
                   href="/about"
                   className={`h-full flex items-center justify-center px-3 text-lg ${
-                    isActive("/about") ? activeClasses : inactiveClasses
+                    isActive("/about/") ? activeClasses : inactiveClasses
                   }`}
                 >
                   Contact

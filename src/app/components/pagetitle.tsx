@@ -14,7 +14,7 @@ export default function PageTitle(props: PageTitleProps) {
     <React.Fragment>
       <div className="flex items-start mb-[var(--layout-padding-md)] md:mb-9 gap-2 md:gap-6 px-[var(--layout-padding-md)] px-0">
         <Link
-          href={"/services"}
+          href={"/"}
           className="bg-iconBg flex p-1 px-2 md:p-3 rounded-full"
         >
           <span className="material-symbols-outlined text-xl md:text-5xl">
