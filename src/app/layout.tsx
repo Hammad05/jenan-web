@@ -11,7 +11,7 @@ import Body from "./body";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jenna",
+  title: "Jenan",
 };
 
 export default function RootLayout({
